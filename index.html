@@ -134,7 +134,7 @@ function calculate(){
 }
 function filterBuffers(){
  const q=(document.getElementById("bufSearch").value||"").toLowerCase(), use=document.getElementById("bufCat").value;
- const a=BUFFERS.filter(x=>(!use||x.use===use)&&x.join(" ").toLowerCase().includes(q));
+ const a=BUFFERS.filter(x=>(!use||x.use===use)&&Object.values(x).join(" ").toLowerCase().includes(q));
  document.getElementById("bufList").innerHTML=a.map(x=>`<div class="item"><strong>${esc(x.name)}</strong><div class="muted">${esc(x.type)}</div><p><b>Typical range:</b> ${esc(x.pH)}<br><b>Use:</b> ${esc(x.use)}</p><p class="small muted">${esc(x.notes)}</p></div>`).join("")||'<div class="card">No buffer matched your search.</div>';
 }
 populateFilters();filterCalcs();filterBuffers();
