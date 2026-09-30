@@ -1,0 +1,9 @@
+# secrets and local files
+*.keystore
+*.jks
+*.p12
+.env
+.env.*
+.DS_Store
+node_modules/
+dist/

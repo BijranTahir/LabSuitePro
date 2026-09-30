@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0f766e">
+<meta name="description" content="Lab Suite Pro — scientific laboratory calculators, buffer library and reference tools by Tahir Ahmad Bijran.">
+<link rel="manifest" href="manifest.json">
+<title>Lab Suite Pro — Scientific Laboratory Suite</title>
+<style>
+:root{--bg:#f4fbfa;--card:#fff;--ink:#102a2a;--muted:#5c7270;--teal:#0f766e;--teal2:#14b8a6;--line:#d7e8e5;--soft:#e7f7f4;--shadow:0 14px 38px rgba(15,118,110,.10);--danger:#b42318}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:radial-gradient(circle at 10% 0%,#e8faf7 0,transparent 28%),linear-gradient(135deg,#f8fffe,#eef8f7 55%,#fbffff);min-height:100vh}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.bar{max-width:1320px;margin:auto;padding:12px 18px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--teal),var(--teal2));display:grid;place-items:center;color:white;font-weight:900;box-shadow:0 10px 24px #0f766e26}.brand{font-weight:900}.tag{font-size:.74rem;color:var(--muted)}nav{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}button,.navbtn{border:1px solid var(--line);background:#fff;color:var(--ink);padding:9px 12px;border-radius:11px;cursor:pointer;font-weight:750;transition:.18s}button:hover,.navbtn:hover{border-color:#9bd6cf;transform:translateY(-1px)}button.primary{background:var(--teal);color:#fff;border-color:var(--teal)}button.ghost{background:var(--soft);color:#08675f}
+.page{max-width:1320px;margin:auto;padding:26px 18px 60px}.hero{padding:42px 0 22px}.pill{display:inline-flex;padding:7px 10px;border-radius:999px;background:#dff8f4;color:#08675f;font-size:.75rem;font-weight:850}.hero h1{font-size:clamp(2.2rem,6vw,5rem);line-height:.98;letter-spacing:-.055em;margin:14px 0}.hero p{max-width:850px;color:var(--muted);font-size:1.05rem}.stats{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.stat{background:#fff;border:1px solid var(--line);border-radius:15px;padding:12px 15px;box-shadow:var(--shadow)}.stat b{display:block;color:var(--teal);font-size:1.35rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.card{background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:18px;padding:19px;box-shadow:var(--shadow)}.card h2,.card h3{margin:0 0 8px}.muted{color:var(--muted)}.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}.search,select,input{padding:11px 12px;border:1px solid var(--line);border-radius:11px;background:#fff;color:var(--ink);font:inherit}.search{flex:1;min-width:230px}.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}.item{background:#fff;border:1px solid var(--line);border-radius:15px;padding:15px}.item strong{display:block}.badge{display:inline-block;margin-top:8px;padding:4px 7px;border-radius:7px;background:var(--soft);color:#08736b;font-size:.72rem;font-weight:800}.hidden{display:none!important}.two{display:grid;grid-template-columns:1fr 1.5fr;gap:16px}.formgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}.field label{display:block;font-size:.78rem;font-weight:800;color:#41615e;margin-bottom:5px}.field input{width:100%}.result{font-size:1.6rem;font-weight:900;color:var(--teal);word-break:break-word}.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f5fbfa;border:1px solid var(--line);padding:10px;border-radius:10px}.notice{border-left:4px solid var(--teal);background:#ecfaf8;padding:13px;border-radius:10px;color:#285c59}.dev{display:grid;grid-template-columns:1fr 2fr;gap:16px}.avatar{width:94px;height:94px;border-radius:24px;background:linear-gradient(135deg,#0f766e,#0b4f4a);display:grid;place-items:center;color:#fff;font-size:2rem;font-weight:900}.links a{display:block;color:var(--teal);text-decoration:none;font-weight:750;margin:8px 0}.footer{border-top:1px solid var(--line);padding:24px 18px;text-align:center;color:var(--muted)}.small{font-size:.82rem}.danger{color:var(--danger)}
+@media(max-width:800px){nav{width:100%;margin-left:0}.two,.dev{grid-template-columns:1fr}.bar{padding:10px 12px}.page{padding:18px 12px 50px}.hero{padding-top:24px}}
+</style>
+</head>
+<body>
+<header><div class="bar">
+<div class="logo">LS</div><div><div class="brand">Lab Suite Pro</div><div class="tag">Scientific calculations • buffers • laboratory reference</div></div>
+<nav>
+<button onclick="show('home')">Home</button><button onclick="show('calculators')">Calculators</button><button onclick="show('buffers')">Buffers</button><button onclick="show('references')">Reference</button><button onclick="show('legacy')">Recovered Engine</button><button onclick="show('developer')">Developer</button>
+</nav></div></header>
+
+<main id="home" class="page">
+<section class="hero"><span class="pill">LAB SUITE PRO • GITHUB EDITION</span>
+<h1>The digital laboratory toolbox.</h1>
+<p>A modular, browser-first scientific suite built from the surviving Lab Suite Pro engine and expanded into a searchable calculation library, laboratory buffer reference and developer profile.</p>
+<div class="stats">
+<div class="stat"><b id="calcCount">0+</b>scientific calculations</div>
+<div class="stat"><b id="bufCount">0+</b>buffer/reference entries</div>
+<div class="stat"><b>100%</b>client-side core</div>
+<div class="stat"><b>PWA</b>installable web app</div>
+</div></section>
+<section class="grid">
+<div class="card"><h2>🧮 Scientific Calculators</h2><p class="muted">Search from undergraduate fundamentals to research-level equations across chemistry, biochemistry, molecular biology, microbiology, cell culture, microscopy, statistics, bioinformatics, bioprocessing and more.</p><button class="primary" onclick="show('calculators')">Open calculators →</button></div>
+<div class="card"><h2>🧪 Buffer Library</h2><p class="muted">A broad laboratory reference covering common biological, biochemical, molecular biology, electrophoresis, purification, cell culture, plant and analytical systems.</p><button onclick="show('buffers')">Browse buffers →</button></div>
+<div class="card"><h2>📚 Scientific Reference</h2><p class="muted">Constants, unit reminders, common laboratory conventions and notes about validation and protocol dependence.</p><button onclick="show('references')">Open reference →</button></div>
+<div class="card"><h2>👨‍🔬 Developer</h2><p class="muted">Professional and academic profile of Tahir Ahmad Bijran, the developer of Lab Suite Pro.</p><button onclick="show('developer')">View developer →</button></div>
+</section>
+<div class="notice" style="margin-top:16px"><b>Important:</b> Lab Suite Pro provides calculations and reference information. It is not a substitute for validated SOPs, manufacturer instructions, institutional safety procedures, or professional judgment. Verify units, constants and experimental assumptions before use.</div>
+</main>
+
+<section id="calculators" class="page hidden">
+<h1>Scientific Calculation Library</h1>
+<p class="muted">The catalogue contains recovered functionality plus a large curated expansion. Each executable calculator has editable inputs and a formula; protocol-specific tools are clearly marked.</p>
+<div class="toolbar"><input id="calcSearch" class="search" placeholder="Search: PCR, molarity, Michaelis, RCF, qPCR, statistics…" oninput="filterCalcs()"><select id="catFilter" onchange="filterCalcs()"><option value="">All categories</option></select></div>
+<div id="calcList" class="list"></div>
+</section>
+
+<section id="calculator" class="page hidden">
+<button onclick="show('calculators')">← Back to library</button>
+<div id="calcView" style="margin-top:14px"></div>
+</section>
+
+<section id="buffers" class="page hidden">
+<h1>Buffer & Laboratory Solution Library</h1>
+<p class="muted">Reference entries are intentionally broad. Exact concentrations, salts, grades and preparation steps can vary by application, organism, instrument and manufacturer.</p>
+<div class="toolbar"><input id="bufSearch" class="search" placeholder="Search buffer, application, pH…" oninput="filterBuffers()"><select id="bufCat"><option value="">All uses</option></select></div>
+<div id="bufList" class="list"></div>
+</section>
+
+<section id="legacy" class="page hidden"><button onclick="show('calculators')">← Back to library</button><div class="card" style="margin-top:14px"><h1>Recovered Lab Suite Pro Engine</h1><p class="muted">This is the surviving web build recovered from the original Lab Suite Pro artifact. It is preserved separately so the legacy implementation is not lost while the new modular library evolves.</p><iframe src="legacy/dist/index.html" title="Recovered Lab Suite Pro" style="width:100%;height:75vh;border:1px solid var(--line);border-radius:15px;background:#fff"></iframe></div></section>
+
+<section id="references" class="page hidden">
+<h1>Scientific Reference</h1>
+<div class="grid">
+<div class="card"><h2>Universal constants</h2><p><b>Avogadro:</b> 6.02214076×10²³ mol⁻¹</p><p><b>Gas constant:</b> 8.314462618 J·mol⁻¹·K⁻¹</p><p><b>Faraday:</b> 96485.33212 C·mol⁻¹</p><p><b>Planck:</b> 6.62607015×10⁻³⁴ J·s</p><p><b>Speed of light:</b> 299792458 m/s</p></div>
+<div class="card"><h2>Common molecular-biology factors</h2><p>dsDNA ≈ 660 g/mol per bp; ssDNA ≈ 330 g/mol per nt; RNA ≈ 340 g/mol per nt.</p><p>Approximate A260 conversion factors: dsDNA 50 µg/mL, RNA 40 µg/mL, ssDNA 33 µg/mL at A260=1 for a 1 cm path.</p></div>
+<div class="card"><h2>Unit discipline</h2><p>Keep units consistent before calculation. Convert µL↔mL, nM↔M, ng↔g, rpm↔rad/s and °C↔K where equations require SI units.</p></div>
+<div class="card"><h2>Recovered-engine provenance</h2><p>The project includes the surviving Lab Suite Pro web build as a legacy reference. Recovered functionality is distinguished from newly curated calculations.</p></div>
+</div></section>
+
+<section id="developer" class="page hidden">
+<h1>Developer</h1>
+<div class="dev">
+<div class="card"><div class="avatar">TB</div><h2>Tahir Ahmad Bijran</h2><p class="muted">Biotechnology • Scientific computing • Bioinformatics</p>
+<div class="links">
+<a href="https://bijrantahir.github.io" target="_blank" rel="noopener">🌐 bijrantahir.github.io</a>
+<a href="https://orcid.org/0009-0002-7115-4499" target="_blank" rel="noopener">🟢 ORCID 0009-0002-7115-4499</a>
+<a href="https://github.com/BijranTahir" target="_blank" rel="noopener">🐙 GitHub — BijranTahir</a>
+<a href="https://www.linkedin.com/in/tahir-ahmad-bijran/" target="_blank" rel="noopener">💼 LinkedIn — Tahir Ahmad Bijran</a>
+<a href="mailto:tahirbijran@gmail.com">✉️ tahirbijran@gmail.com</a>
+<a href="mailto:tahirbijran@cukashmir.edu.in">✉️ tahirbijran@cukashmir.edu.in</a>
+</div></div>
+<div class="card"><h2>About the developer</h2>
+<p><b>Academic background:</b> B.Sc. (Hons.) Biotechnology, Central University of Kashmir.</p>
+<p><b>Interests:</b> Biotechnology, molecular biology, microbiology, bioinformatics, computational biology, laboratory automation and scientific software.</p>
+<p><b>Lab Suite Pro:</b> A personal scientific software project intended to make laboratory calculations, solution planning and reference information easier to access from a browser.</p>
+<div class="notice"><b>Security rule:</b> no passwords, keystores, private credentials or signing secrets belong in this public repository.</div>
+</div></div>
+</section>
+<footer class="footer">Lab Suite Pro • GitHub edition • © Tahir Ahmad Bijran • Scientific toolkit for educational and laboratory use</footer>
+
+<script src="data/calculators.js"></script>
+<script src="data/buffers.js"></script>
+<script>
+let currentCalc=null;
+function show(id){document.querySelectorAll(".page").forEach(x=>x.classList.add("hidden"));document.getElementById(id).classList.remove("hidden");scrollTo(0,0)}
+function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))}
+function populateFilters(){
+  const cats=[...new Set(CALCULATORS.map(x=>x.category))].sort();
+  document.getElementById("catFilter").innerHTML='<option value="">All categories</option>'+cats.map(c=>`<option>${esc(c)}</option>`).join("");
+  document.getElementById("bufCat").innerHTML='<option value="">All uses</option>'+[...new Set(BUFFERS.map(x=>x.use))].sort().map(c=>`<option>${esc(c)}</option>`).join("");
+  document.getElementById("calcCount").textContent=CALCULATORS.length+"+";
+  document.getElementById("bufCount").textContent=BUFFERS.length+"+";
+}
+function filterCalcs(){
+ const q=(document.getElementById("calcSearch").value||"").toLowerCase(), cat=document.getElementById("catFilter").value;
+ const a=CALCULATORS.filter(x=>(!cat||x.category===cat)&&((x.name+" "+x.category+" "+x.description).toLowerCase().includes(q)));
+ document.getElementById("calcList").innerHTML=a.map(x=>`<div class="item"><strong>${esc(x.name)}</strong><span class="muted">${esc(x.category)}</span><div class="formula" style="margin-top:9px">${esc(x.formula)}</div><span class="badge">${x.expr?"Executable":"Reference / recovered"}</span><div style="margin-top:10px"><button class="ghost" onclick="openCalc('${x.id}')">Open calculator →</button></div></div>`).join("")||'<div class="card">No calculator matched your search.</div>';
+}
+function openCalc(id){
+ currentCalc=CALCULATORS.find(x=>x.id===id);
+ if(!currentCalc)return;
+ const c=currentCalc;
+ const fields=(c.fields||[]).map(f=>`<div class="field"><label>${esc(f.label)} <span class="small">(${esc(f.unit||"unitless")})</span></label><input type="number" step="any" id="v_${esc(f.key)}" value="${f.default??1}"></div>`).join("");
+ document.getElementById("calcView").innerHTML=`<div class="two"><div class="card"><span class="badge">${esc(c.category)}</span><h1>${esc(c.name)}</h1><p class="muted">${esc(c.description||"")}</p><div class="formula">${esc(c.formula)}</div>${c.notes?`<p class="small muted">${esc(c.notes)}</p>`:""}</div><div class="card"><h2>Calculator</h2>${c.expr?`<div class="formgrid">${fields}</div><button class="primary" style="margin-top:14px" onclick="calculate()">Calculate</button><div style="margin-top:18px"><div class="small muted">Result</div><div id="result" class="result">—</div></div>`:`<div class="notice">This entry is a reference/recovered tool rather than a newly executable generic equation. Use the recovered engine or validated protocol for the exact workflow.</div>`}</div></div>`;
+ show("calculator");
+}
+function calculate(){
+ const c=currentCalc;
+ try{
+   const scope={};
+   (c.fields||[]).forEach(f=>{scope[f.key]=Number(document.getElementById("v_"+f.key).value)});
+   const names=Object.keys(scope), vals=Object.values(scope);
+   const fn=new Function(...names,"return ("+c.expr+");");
+   const r=fn(...vals);
+   if(!Number.isFinite(r)) throw new Error("Check inputs/units.");
+   document.getElementById("result").textContent=Number(r.toPrecision(10)).toString();
+ }catch(e){document.getElementById("result").textContent="Check inputs / units";}
+}
+function filterBuffers(){
+ const q=(document.getElementById("bufSearch").value||"").toLowerCase(), use=document.getElementById("bufCat").value;
+ const a=BUFFERS.filter(x=>(!use||x.use===use)&&x.join(" ").toLowerCase().includes(q));
+ document.getElementById("bufList").innerHTML=a.map(x=>`<div class="item"><strong>${esc(x.name)}</strong><div class="muted">${esc(x.type)}</div><p><b>Typical range:</b> ${esc(x.pH)}<br><b>Use:</b> ${esc(x.use)}</p><p class="small muted">${esc(x.notes)}</p></div>`).join("")||'<div class="card">No buffer matched your search.</div>';
+}
+populateFilters();filterCalcs();filterBuffers();
+if("serviceWorker" in navigator) window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+</script>
+</body></html>
