@@ -1,0 +1,3064 @@
+{
+  "version": "1.0",
+  "source": "Lab_Suite_Pro_EVERYTHING_Master_Feature_Catalog.docx",
+  "domains": [
+    {
+      "name": "Mathematics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Statistics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Probability",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Numerical Analysis",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Operations Research",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Physics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Applied Physics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Thermodynamics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Statistical Mechanics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Quantum Physics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Relativity",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Optics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Photonics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Acoustics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Electromagnetism",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Nuclear Physics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Particle Physics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Condensed Matter",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Materials Physics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Plasma Physics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Astrophysics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Astronomy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Cosmology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Space Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Physical Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Organic Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Inorganic Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Analytical Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Computational Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Electrochemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Polymer Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Materials Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Green Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Chemical Informatics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Biochemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Molecular Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Cell Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Structural Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Genetics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Genomics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Epigenetics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Proteomics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Metabolomics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Bioinformatics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Computational Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Systems Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Synthetic Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Biotechnology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Bioprocess Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Microbiology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Bacteriology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Virology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Mycology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Parasitology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Immunology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Neuroscience",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Physiology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Developmental Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Evolutionary Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Ecology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Conservation Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Botany",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Plant Physiology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Plant Anatomy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Plant Taxonomy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Plant Pathology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Plant Biotechnology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Agronomy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Zoology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Animal Physiology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Animal Behavior",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Entomology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Wildlife Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Marine Biology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Aquatic Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Fisheries Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Food Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Nutrition Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Agricultural Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Soil Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Environmental Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Environmental Chemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Environmental Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Climate Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Atmospheric Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Oceanography",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Hydrology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Geology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Geophysics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Geochemistry",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Paleontology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Remote Sensing",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "GIS/Spatial Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Nanoscience",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Nanotechnology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Nanobiotechnology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Nanotoxicology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Materials Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Metallurgy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Polymer Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Ceramics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Composites",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Mechanical Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Civil Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Chemical Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Electrical Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Electronics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Control Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Biomedical Engineering",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Biomaterials",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Computer Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Data Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Artificial Intelligence",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Machine Learning",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Computer Vision",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Signal Processing",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Scientific Computing",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Information Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Metrology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Instrumentation",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Imaging Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Spectroscopy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Forensic Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Pharmaceutical Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Pharmacology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Pharmacokinetics",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Toxicology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Biomedical Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Clinical Laboratory Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Epidemiology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Public Health",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Health Data Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Astrobiology",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Energy Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Renewable Energy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Nuclear Energy",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Science Education",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    },
+    {
+      "name": "Interdisciplinary Science",
+      "status": "registry",
+      "sharedEngines": [
+        "units",
+        "constants",
+        "equations",
+        "statistics",
+        "plotting",
+        "data",
+        "validation",
+        "provenance",
+        "export"
+      ],
+      "outputs": [
+        "calculations",
+        "analysis",
+        "visualization",
+        "references"
+      ],
+      "limitations": "Domain-specific methods are only marked implemented when a working tool is present."
+    }
+  ]
+}

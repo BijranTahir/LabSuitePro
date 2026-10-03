@@ -1,0 +1,27 @@
+{
+  "schema": "LabSuiteProReferenceRegistry/v1",
+  "purpose": "Structured reference index for units, constants, biological entities, scientific file formats and instrument boundaries.",
+  "principles": [
+    "Preserve source/version metadata for reference values.",
+    "Never present a computed estimate as an instrument measurement.",
+    "Keep raw imported data separate from derived data.",
+    "Record units and assumptions for quantitative methods."
+  ],
+  "unit_families": ["SI", "SI-derived", "CGS", "US customary", "Imperial", "laboratory", "biochemical", "concentration", "pressure", "energy", "astronomical"],
+  "constant_families": ["mathematical", "physical", "chemical", "astronomical", "biological"],
+  "biological_reference_families": ["nucleotides", "amino acids", "codons", "enzymes", "metabolites", "organisms", "taxonomy", "protein properties", "genome annotations"],
+  "file_formats": {
+    "general": ["CSV", "TSV", "JSON", "XML", "YAML", "TXT", "XLSX"],
+    "sequence": ["FASTA", "FASTQ", "GenBank"],
+    "genome_annotation": ["GFF", "GTF", "BED", "VCF"],
+    "alignment": ["SAM", "BAM", "CRAM"],
+    "structure": ["PDB", "mmCIF", "SDF", "MOL"],
+    "instrument": ["mzML", "JCAMP-DX", "instrument-specific exports"]
+  },
+  "instrument_measurement_boundary": {
+    "principle": "A phone or browser can calculate and analyse supplied data but cannot replace a physical measurement instrument.",
+    "examples": [
+      "XRD", "Raman", "FTIR", "UV-Vis spectrometer", "SEM", "TEM", "AFM", "XPS", "DLS", "BET", "TGA", "DSC", "NMR", "ICP-MS", "ICP-OES", "HPLC", "GC", "LC-MS/MS", "GC-MS", "flow cytometer", "plate reader", "qPCR instrument", "sequencer", "confocal microscope"
+    ]
+  }
+}

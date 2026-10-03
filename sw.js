@@ -1,1 +1,3 @@
-const CACHE='lab-suite-pro-v1';const ASSETS=['./','./index.html','./data/calculators.js','./data/buffers.js','./manifest.json'];self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
+const C='lsp-v8';
+self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(['./','./index.html','./app.js','./data/science-methods.js','./manifest.json','./data/calculators.js','./data/buffers.js','./data/bio-science.js','./data/reference-registry.json','./docs/SCIENTIFIC_BOUNDARIES.md']))));
+self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));

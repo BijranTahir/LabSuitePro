@@ -1,6 +1,15 @@
 {
-  "version": "2.0.0-rebuild",
-  "calculator_entries": 359,
-  "executable_calculators": 320,
-  "buffer_entries": 133
+  "version": "v8-production-integrity-build",
+  "name": "Lab Suite Pro — Universal Scientific Workstation",
+  "purpose": "Extensible scientific calculation, data-analysis, visualization, biological-science and instrument-method knowledge workstation.",
+  "registered_tools": 803,
+  "calculator_catalog": 359,
+  "buffer_reference_catalog": 133,
+  "biological_fields": 32,
+  "biological_calculators": 73,
+  "science_method_records": 104,
+  "instrument_method_records": 31,
+  "instrument_truth": "A phone/browser/computer can calculate and analyse supplied data; physical measurement requires the appropriate instrument, sample preparation, calibration and safety controls.",
+  "offline_first": true,
+  "validation": "tests/validate.mjs"
 }

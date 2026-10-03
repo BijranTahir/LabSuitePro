@@ -1,10 +1,9 @@
 {
   "name": "Lab Suite Pro",
-  "short_name": "LabSuitePro",
+  "short_name": "LabSuite",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f4fbfa",
-  "theme_color": "#0f766e",
-  "description": "Scientific laboratory calculators and buffer reference by Tahir Ahmad Bijran.",
-  "icons": []
+  "background_color": "#f5fbfa",
+  "theme_color": "#0b7f73",
+  "description": "Universal scientific workstation"
 }

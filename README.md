@@ -1,50 +1,53 @@
 # Lab Suite Pro
 
-A browser-first scientific laboratory toolkit by **Tahir Ahmad Bijran**.
+**Universal Scientific Workstation — v8 production-integrity build**
 
-## Current build
+Lab Suite Pro is a browser-first scientific environment for calculations, scientific data analysis, visualization, biological-science workflows, method/reference knowledge and reproducible project documentation.
 
-- **359** calculator/reference entries
-- **320** executable equation-based calculators
-- **133** buffer/laboratory-solution reference entries
-- No backend required for the core app
-- PWA-ready and suitable for GitHub Pages
+## Included
 
-## Deploy with GitHub Pages
+- 359 recovered scientific calculators
+- 803 registered scientific modules after biological-science expansion
+- 32 biological fields
+- 73 biological quantitative calculators
+- 104 scientific method/instrument records
+- 31 instrument-method records with explicit measurement boundaries
+- Data Lab with editable local table, CSV import/export, QC/statistics and project JSON export
+- Regression/statistics and scientific calculation foundations
+- BioScience Workbench covering biochemistry, biophysics, bioinformatics, molecular biology, genetics, genomics, proteomics, metabolomics, systems biology, structural biology, microbiology, immunology, physiology, neuroscience, ecology, plant science, zoology, biomedical science, epidemiology, synthetic biology and related areas
+- XRD/Raman/FTIR/SEM/TEM/AFM/XPS/DLS/BET/TGA/DSC/NMR/chromatography/mass-spectrometry/flow-cytometry and related instrument knowledge with a strict physical-measurement boundary
+- Scientific file-format and reference infrastructure
+- Offline-first project structure for GitHub Pages
 
-1. Upload the contents of this folder to your repository.
-2. Open **Settings → Pages**.
-3. Choose **Deploy from a branch**.
-4. Select `main` and `/ (root)`.
-5. Save.
+## Scientific integrity
 
-The public site will be available at your GitHub Pages URL.
+A method name is not treated as a measurement. Lab Suite Pro distinguishes:
 
-## Repository safety
+1. **Local calculation** — executable from supplied values/data.
+2. **Instrument-data analysis** — requires real exported/raw measurement data first.
+3. **Physical measurement** — requires the actual scientific instrument, appropriate sample preparation, calibration and safety controls.
 
-Never commit:
-- `.keystore` / `.jks` files
-- passwords
-- API keys
-- signing credentials
-- private research data
+For example, Lab Suite Pro can calculate crystallite size from supplied XRD peak parameters, but it cannot acquire an XRD pattern from a phone. The same rule applies to Raman, FTIR, SEM, TEM, AFM, XPS, DLS, BET, TGA, DSC, NMR, HPLC, GC-MS, flow cytometry, sequencing and other physical measurement systems.
 
-## Scientific caution
+## Validation
 
-Calculations are educational/reference tools. Always validate units, constants, assumptions, manufacturer instructions and institutional SOPs before experimental use.
+Run:
+
+```bash
+node tests/validate.mjs
+```
+
+The test suite verifies catalog integrity, biological coverage, representative numerical benchmarks and the instrument-reality boundary.
+
+## Documentation
+
+- `docs/Lab_Suite_Pro_EVERYTHING_Master_Feature_Catalog.docx`
+- `docs/Lab_Suite_Pro_Complete_Science_Roadmap.docx`
+- `docs/SCIENTIFIC_BOUNDARIES.md`
+- `docs/ARCHITECTURE.md`
+- `docs/VALIDATION_REPORT.md`
 
 ## Developer
 
 **Tahir Ahmad Bijran**  
-B.Sc. (Hons.) Biotechnology, Central University of Kashmir
-
-- Website: https://bijrantahir.github.io
-- ORCID: https://orcid.org/0009-0002-7115-4499
-- GitHub: https://github.com/BijranTahir
-- LinkedIn: https://www.linkedin.com/in/tahir-ahmad-bijran/
-- Email: tahirbijran@gmail.com
-- Academic email: tahirbijran@cukashmir.edu.in
-
-## Recovery note
-
-This rebuild was created around surviving Lab Suite Pro artifacts. Recovered functionality is kept conceptually separate from newly curated scientific calculations so future versions can be audited and expanded.
+B.Sc. (Hons.) Biotechnology — Central University of Kashmir
